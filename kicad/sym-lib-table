@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AS358MTR-G1")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AS358MTR-G1.kicad_sym")(options "")(descr ""))
+  (lib (name "LV-Sensor-Lib")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LV-Sensor-Lib.kicad_sym")(options "")(descr ""))
+)
