@@ -614,30 +614,6 @@
     [
       "1afce36f-b357-4e2a-9166-a84df6dcc281",
       "Root"
-    ],
-    [
-      "f3082fee-da3a-4bcc-920f-b4473f07c298",
-      "LDO Voltage Regulator"
-    ],
-    [
-      "236d26c0-505f-429b-9252-bee6badddfec",
-      "Micro Controller"
-    ],
-    [
-      "592769d4-65a4-4546-9b43-1957b13a9ac9",
-      "OP Amplifier"
-    ],
-    [
-      "00da165c-0e51-4cea-857f-f37fb430a9eb",
-      "CAN Stand-alone Controller"
-    ],
-    [
-      "de3c7557-33db-4cb0-b082-3d9dc6dbc793",
-      "AD Switch"
-    ],
-    [
-      "c1326fed-9014-4630-a9cc-993eb506278b",
-      "ADC System"
     ]
   ],
   "text_variables": {}
