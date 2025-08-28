@@ -1,4 +1,4 @@
-25630859714386609
+25650178322725095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67864,6 +67864,34 @@ Yellow 5381 Series LED
 0
 2
 2
+LV Sensor
+74LVC1G3157GW_SOT363-2
+
+
+0
+6
+6
+LV Sensor
+MCP2518FDT
+
+
+0
+14
+14
+Library
+Untitled
+
+
+0
+14
+14
+Library
+mcp251fd soic14
+SOIC, 10 Pin (https://www.onsemi.com/pub/Collateral/751BQ.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO SOIC-10 NB
+0
+10
+10
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -102640,6 +102668,55 @@ Varistor VF
 0
 2
 2
+footprints
+DBV0005A-IPC_A
+
+TLV77312PDBVR 
+0
+5
+5
+footprints
+DBV0005A-IPC_B
+
+TLV77312PDBVR 
+0
+5
+5
+footprints
+DBV0005A-IPC_C
+
+TLV77312PDBVR 
+0
+5
+5
+footprints
+DBV0005A-MFG
+
+TLV77312PDBVR 
+0
+5
+5
+footprints
+TSSOP20_PW_TEX
+
+XMSM0C1104SPW20R 
+0
+20
+20
+footprints
+TSSOP20_PW_TEX-L
+
+XMSM0C1104SPW20R 
+0
+20
+20
+footprints
+TSSOP20_PW_TEX-M
+
+XMSM0C1104SPW20R 
+0
+20
+20
 zzLocalLibraries-Footprints
 BQ76952_PFB48_TEX
 

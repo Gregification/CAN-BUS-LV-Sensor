@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Symbols/footprints.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Symbols/footprints.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "LV Sensor")(type "KiCad")(uri "${KIPRJMOD}/Symbols/footprints.pretty/LV Sensor.pretty")(options "")(descr ""))
+)
