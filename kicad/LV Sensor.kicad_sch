@@ -5149,6 +5149,18 @@
 		(uuid "85a082b6-46c8-4df2-8831-4acbebb88431")
 	)
 	(junction
+		(at 270.51 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "865dbfa3-8ed1-496e-a89f-989ec207b656")
+	)
+	(junction
+		(at 58.42 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a73ee78-fea5-4602-9d91-2a8f9ceed803")
+	)
+	(junction
 		(at 162.56 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5239,6 +5251,12 @@
 		(uuid "b698b4a0-9b7a-4959-bdd6-8fa90ecd2dac")
 	)
 	(junction
+		(at 228.6 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b95ccfa6-f8bf-4348-b9da-634680a1748e")
+	)
+	(junction
 		(at 29.21 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5249,6 +5267,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c62c6731-eeb9-499a-af92-8f588a933345")
+	)
+	(junction
+		(at 58.42 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0abbb2c-d6dd-41c3-a067-1190e7dc2e21")
 	)
 	(junction
 		(at 168.91 40.64)
@@ -5531,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 165.1) (xy 71.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0642e42a-0277-4757-b904-e12f7bfb7c26")
+	)
+	(wire
+		(pts
 			(xy 209.55 82.55) (xy 209.55 83.82)
 		)
 		(stroke
@@ -5538,6 +5572,16 @@
 			(type default)
 		)
 		(uuid "08d41762-92d9-4a05-bc46-c59b4cb193ee")
+	)
+	(wire
+		(pts
+			(xy 71.12 163.83) (xy 58.42 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a767ba1-f1e6-4df5-881f-fd6afb1d08b6")
 	)
 	(wire
 		(pts
@@ -5991,6 +6035,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 52.07) (xy 270.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed1bcd3-b4f3-4114-bfca-8ca8c7791605")
+	)
+	(wire
+		(pts
 			(xy 129.54 181.61) (xy 129.54 186.69)
 		)
 		(stroke
@@ -6131,16 +6185,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 228.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b38a6c-f2f5-4d16-a383-b7db02791d32")
-	)
-	(wire
-		(pts
 			(xy 88.9 33.02) (xy 180.34 33.02)
 		)
 		(stroke
@@ -6268,16 +6312,6 @@
 			(type default)
 		)
 		(uuid "535d27c1-dda2-4731-b8d1-a73b41fda771")
-	)
-	(wire
-		(pts
-			(xy 270.51 58.42) (xy 270.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5550b0b8-3cc5-49b7-b49b-c4b39a65160b")
 	)
 	(wire
 		(pts
@@ -6428,6 +6462,16 @@
 			(type default)
 		)
 		(uuid "600704d7-2f70-4b0c-8044-ab08688b440c")
+	)
+	(wire
+		(pts
+			(xy 228.6 52.07) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b73370-862c-4324-8ac5-36c95c4b53b4")
 	)
 	(bus
 		(pts
@@ -6631,6 +6675,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 43.18) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746b3a2d-a0b1-4f47-bb09-9ace687a0ae8")
+	)
+	(wire
+		(pts
 			(xy 179.07 72.39) (xy 177.8 72.39)
 		)
 		(stroke
@@ -6638,6 +6692,16 @@
 			(type default)
 		)
 		(uuid "75fdf02d-4c35-4862-982e-f44a312540e8")
+	)
+	(wire
+		(pts
+			(xy 228.6 52.07) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774921c9-c5f0-4c06-ac33-afac2dfe3b59")
 	)
 	(wire
 		(pts
@@ -6788,6 +6852,16 @@
 			(type default)
 		)
 		(uuid "8e89bb35-3e03-4829-82b5-4fd1c9c9eb3c")
+	)
+	(wire
+		(pts
+			(xy 236.22 59.69) (xy 236.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed8e137-a98e-43d4-92ac-a7642800cb72")
 	)
 	(wire
 		(pts
@@ -7051,6 +7125,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 186.69) (xy 58.42 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d12b3a-4f3c-4b2c-b55d-578f961266de")
+	)
+	(wire
+		(pts
 			(xy 25.4 134.62) (xy 21.59 134.62)
 		)
 		(stroke
@@ -7168,6 +7252,16 @@
 			(type default)
 		)
 		(uuid "b5b7f450-91cf-4a83-aa24-6ec988a38a78")
+	)
+	(wire
+		(pts
+			(xy 270.51 45.72) (xy 270.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e4b3b1-1450-4496-8c38-59c57c0774f8")
 	)
 	(wire
 		(pts
@@ -7438,6 +7532,16 @@
 			(type default)
 		)
 		(uuid "d0198f44-46a7-4a91-a8cb-fb9f30d34cfd")
+	)
+	(wire
+		(pts
+			(xy 261.62 52.07) (xy 270.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05293a2-0b68-4523-85ec-c379791b20fe")
 	)
 	(wire
 		(pts
@@ -7821,16 +7925,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 45.72) (xy 270.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72b5745-ba6d-4aa6-b1c9-3fed49966178")
-	)
-	(wire
-		(pts
 			(xy 50.8 95.25) (xy 50.8 97.79)
 		)
 		(stroke
@@ -7898,6 +7992,16 @@
 			(type default)
 		)
 		(uuid "fd83e708-f21e-4005-b8d0-a730eab7a844")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 71.12 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea10556-7a1b-42e7-8c2f-af91cd1ba97b")
 	)
 	(wire
 		(pts
@@ -8086,6 +8190,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 236.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a474ea1-a308-42f9-be53-a2f7e845d63d")
+		(property "Reference" "C4"
+			(at 240.03 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 237.1852 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/0402B104K100CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVQ%2FVncd6IqtM%3D"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.1 uF, 10VDC, +/-10%, -55C to +125C"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "00.04"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e23e3bbf-ba10-491d-8fd1-0d2a23010c46")
+		)
+		(pin "1"
+			(uuid "acd1e96d-d7d6-46bc-bf34-6442a6d494e0")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LV-Sensor-Lib:LM2662MX_NOPB")
 		(at 143.51 78.74 0)
 		(unit 1)
@@ -8112,7 +8313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M08A"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:M08A"
 			(at 152.654 67.31 0)
 			(effects
 				(font
@@ -8133,6 +8334,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM2662MX-NOPB?qs=X1J7HmVL2ZEhDibOuMUl7w%3D%3D"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "200mA, 1.3 mA Operating Current, -1.5 V to -5.5 V, 75kHz, 735mW Power Dissipation, -40C to+85V"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "14.10"
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -8266,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 50.8 179.3748 0)
 			(effects
 				(font
@@ -8275,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31C5C1E104FA02-01A.pdf"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -8286,6 +8514,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 46.99 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT31C5C1E104FA02L?qs=RcG8xmE7yp2x0Dm0oPPFZA%3D%3D"
+			(at 46.99 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "  0.1 uF, 1% tolerance, -55 to +125C"
+			(at 46.99 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.583"
+			(at 46.99 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +8658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 121.92 182.88 0)
 			(effects
 				(font
@@ -8412,7 +8667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 121.92 182.88 0)
 			(effects
 				(font
@@ -8422,6 +8677,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B105KBHNFNE?qs=sGAEpiMZZMsh%252B1woXyUXj4hdzsxBU3nxXdDxGdPaX9g%3D"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "1uF, 50 VDC, +/-10%, -55C to +125C"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.049"
 			(at 121.92 182.88 0)
 			(effects
 				(font
@@ -8473,7 +8755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 162.56 176.53 0)
 			(effects
 				(font
@@ -8482,7 +8764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 162.56 176.53 0)
 			(effects
 				(font
@@ -8492,6 +8774,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B105KBHNFNE?qs=sGAEpiMZZMsh%252B1woXyUXj4hdzsxBU3nxXdDxGdPaX9g%3D"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "1uF, 50 VDC, +/-10%, -55C to +125C"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.049"
 			(at 162.56 176.53 0)
 			(effects
 				(font
@@ -8609,7 +8918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TDK_NLV25_2.5x2.0mm"
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -8618,7 +8927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74479325207247.pdf"
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -8628,6 +8937,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/74479325207247?qs=sGAEpiMZZMv126LJFLh8yz45cmI%252ByXhRb9SDSs%252BnERg%3D"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "4.7 uH, 128 mOhms, 25 MHz, -55 to +150 C "
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.311"
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -8669,7 +9005,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2x22uF"
+		(property "Value" "22uF"
 			(at 62.23 184.1499 0)
 			(effects
 				(font
@@ -8678,7 +9014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 57.4548 179.07 0)
 			(effects
 				(font
@@ -8687,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 58.42 182.88 0)
 			(effects
 				(font
@@ -8697,6 +9033,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31A226KAHNNNE?qs=X6jEic%2FHinCdwsjGJII51w%3D%3D"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "22 uF, 25VDC, +/-10%, -55C to +85C"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.076"
 			(at 58.42 182.88 0)
 			(effects
 				(font
@@ -8814,7 +9177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -8823,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -8833,6 +9196,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206B474K100CT?qs=ZrPdAQfJ6DMKbr56A%2F9GRA%3D%3D"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.47 uF, 10 VDC, +/-10%, -55C to +125"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.076"
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -8882,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PBS0032A_N"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:PBS0032A_N"
 			(at 231.394 176.276 0)
 			(effects
 				(font
@@ -8929,7 +9319,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "6.08"
+		(property "unit x10" "60.80"
 			(at 230.886 171.45 0)
 			(effects
 				(font
@@ -9069,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC8_4P9X3P9MC_MCH"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:SOIC8_4P9X3P9MC_MCH"
 			(at 249.428 22.606 0)
 			(effects
 				(font
@@ -9079,7 +9469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ATA6561-GAQW-N"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/282/1/20005991B.pdf"
 			(at 249.682 25.146 0)
 			(effects
 				(font
@@ -9090,6 +9480,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Microchip-Technology/ATA6561-GAQW-N?qs=y6ZabgHbY%252BwGbm2JCZMHKQ%3D%3D"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "5Mb/s, 1 Driver /1 Receiver, 4.5V - 5.5V,50mA Operating Current, -40C to+150C"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "04.80"
 			(at 229.87 38.1 0)
 			(effects
 				(font
@@ -9223,7 +9640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -9232,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -9243,6 +9660,33 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/KOA-Speer/RK73B2BTTD390J?qs=sGAEpiMZZMvdGkrng054t7JT%252BZ6rIJkYlNcyVLEZTg4%3D"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "39Ohms, 200V,1/4 W, 5%, -55 to +155 C  "
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.022"
+			(at 41.91 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -9365,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -9376,6 +9820,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206N103F250CT?qs=ZrPdAQfJ6DMiKZcJOL8AWQ%3D%3D"
+			(at 171.45 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.01uF, 25 VDC, +/-1%, -55C to 125C"
+			(at 171.45 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.242"
+			(at 171.45 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,16 +9871,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 270.51 54.61 0)
+		(at 261.62 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c5eac08-939b-4c3d-9858-81be39e93e1d")
 		(property "Reference" "C6"
-			(at 274.32 53.3399 0)
+			(at 257.81 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9889,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 274.32 55.8799 0)
+			(at 257.81 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,8 +9897,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 271.4752 58.42 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 260.6548 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,8 +9906,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 270.51 54.61 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+			(at 261.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9916,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 270.51 54.61 0)
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/0402B104K100CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVQ%2FVncd6IqtM%3D"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.1 uF, 10VDC, +/-10%, -55C to +125C"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "00.04"
+			(at 261.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,6 +10033,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 236.22 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7cd6ed-9b03-4c40-afa0-2de9242bf6d4")
+		(property "Reference" "#PWR026"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162ed140-039d-40c5-94fb-81436a56011c")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 271.78 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9600,6 +10164,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 71.12 168.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "543e0859-618f-4b12-b523-588a0e084082")
+		(property "Reference" "C27"
+			(at 67.31 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 67.31 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 72.0852 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31A226KAHNNNE?qs=X6jEic%2FHinCdwsjGJII51w%3D%3D"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "22 uF, 25VDC, +/-10%, -55C to +85C"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.076"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bc3911e-621d-476b-9896-91487a18505f")
+		)
+		(pin "1"
+			(uuid "f0b2354a-bb67-4ebc-b9d3-401e957a1fca")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LV-Sensor-Lib:TLV77325PDBVR")
 		(at 128.27 171.45 0)
 		(unit 1)
@@ -9625,7 +10286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A-IPC_A"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:DBV0005A-IPC_A"
 			(at 139.446 154.686 0)
 			(effects
 				(font
@@ -9646,6 +10307,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "300-mA, 2.5V Out, 1 Output, 1.4V-5.5V, 600mV Dropout, 80dB PSRR, 2% Accuracy, -40C to +85C"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.068"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Texas-Instruments/TLV77325PDBVR?qs=i8QVZAFTkqRX2VRUOXqXsg%3D%3D"
 			(at 128.27 171.45 0)
 			(effects
 				(font
@@ -9703,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSOP-20_FTD"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:SSOP-20_FTD"
 			(at 49.53 122.174 0)
 			(effects
 				(font
@@ -9713,7 +10401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FT231XS-R"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2025/06/DS_FT231X.pdf"
 			(at 57.658 125.73 0)
 			(effects
 				(font
@@ -9724,6 +10412,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/FTDI/FT231XS-R?qs=Gp1Yz1mis3WduRPsgrTbtg%3D%3D"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "480 Mb/s, USB 2.0, 2.97V-5.5V, 125uA-8mA, -40C to + 85C"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "23.40"
 			(at 67.31 102.87 0)
 			(effects
 				(font
@@ -9873,7 +10588,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "0.04"
+		(property "unit x10" "00.04"
 			(at 29.21 39.37 0)
 			(effects
 				(font
@@ -9924,7 +10639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.32 158.75 0)
 			(effects
 				(font
@@ -9933,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 20.32 158.75 0)
 			(effects
 				(font
@@ -9943,6 +10658,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 20.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206X106J250CT?qs=u16ybLDytRaD56e%252BbKDXkA%3D%3D"
+			(at 20.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "10 uF, 25 VDC, +/-5%, -55C to +85"
+			(at 20.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.202"
 			(at 20.32 158.75 0)
 			(effects
 				(font
@@ -9993,7 +10735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -10002,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -10012,6 +10754,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/0402B104K100CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVQ%2FVncd6IqtM%3D"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.1 uF, 10VDC, +/-10%, -55C to +125C"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "00.04"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -10061,7 +10830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP20_PW_TEX"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:TSSOP20_PW_TEX"
 			(at 68.072 13.462 0)
 			(effects
 				(font
@@ -10083,6 +10852,33 @@
 		)
 		(property "Description" ""
 			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Texas-Instruments/XMSM0C1104SPW20R?qs=Z%252BL2brAPG1JKbPe32hUTtg%3D%3D"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "20PIN, 12-bit, 16KB flash, 24MHz CPU, 1.62V-3.6V, 32kHz LFOSC, -2% to 1.2% SYSOSC Accuracy, -40C to+125C"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "05.06"
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +11058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/Middle_and_High_Voltage_DS.pdf"
 			(at 36.83 30.48 0)
 			(effects
 				(font
@@ -10316,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "0.07"
+		(property "unit x10" "00.07"
 			(at 36.83 30.48 0)
 			(effects
 				(font
@@ -10335,76 +11131,6 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74ba72ed-0f77-41e2-a162-883b7b125534")
-		(property "Reference" "C4"
-			(at 232.41 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 232.41 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.5652 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77bef301-7e2c-4eac-94ba-377372f28756")
-		)
-		(pin "1"
-			(uuid "6b3666f1-cdb1-4b6c-9c0d-e2ea783ebd56")
-		)
-		(instances
-			(project ""
-				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10447,7 +11173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/Middle_and_High_Voltage_DS.pdf"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -10492,7 +11218,7 @@
 				(hide yes)
 			)
 		)
-		(property "specs" "100nF, 250VDC, X7R, 10%, -55C, +125C"
+		(property "specs" "100nF, 250VDC, X7R, +/-10%, -55C to +125C"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -10501,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "0.062"
+		(property "unit x10" "0.042"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -10553,7 +11279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 208.28 157.48 0)
 			(effects
 				(font
@@ -10562,7 +11288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 208.28 157.48 0)
 			(effects
 				(font
@@ -10572,6 +11298,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B105KBHNFNE?qs=sGAEpiMZZMsh%252B1woXyUXj4hdzsxBU3nxXdDxGdPaX9g%3D"
+			(at 208.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "1uF, 50 VDC, +/-10%, -55C to +125C"
+			(at 208.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.049"
 			(at 208.28 157.48 0)
 			(effects
 				(font
@@ -10622,7 +11375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CDFN4_2P5X2_MCH"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:CDFN4_2P5X2_MCH"
 			(at 160.02 75.692 0)
 			(effects
 				(font
@@ -10632,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/DSC1001_3_4_1_8V_3_3V_Low_Power_Precision_CMOS_Osc-3314582.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/282/1/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf"
 			(at 160.02 77.978 0)
 			(effects
 				(font
@@ -10671,6 +11424,15 @@
 		)
 		(property "unit x1" "1.40 "
 			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "14.00"
+			(at 160.02 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +11488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -10735,7 +11497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -10745,6 +11507,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "47 pF, 60VDC, +/-5%, -55C to 125C"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206N470J500CT?qs=ZrPdAQfJ6DPJJtFw3Gh3Gg%3D%3D"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.058"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -10794,7 +11583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 99.06 179.3748 0)
 			(effects
 				(font
@@ -10803,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31C5C1E104FA02-01A.pdf"
 			(at 95.25 180.34 0)
 			(effects
 				(font
@@ -10814,6 +11603,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT31C5C1E104FA02L?qs=RcG8xmE7yp2x0Dm0oPPFZA%3D%3D"
+			(at 95.25 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "  0.1 uF, 1% tolerance, -55 to +125C"
+			(at 95.25 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.583"
+			(at 95.25 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +11679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC_05WU-7_DIO"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:AP6320xWU-7_DIO"
 			(at 53.086 159.766 0)
 			(effects
 				(font
@@ -10873,7 +11689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AP63205WU-7"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0007089856/DIOD-S-A0007089856-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
 			(at 56.642 159.004 0)
 			(effects
 				(font
@@ -10885,6 +11701,33 @@
 		)
 		(property "Description" ""
 			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63205WU-7?qs=u16ybLDytRZtkj8PzdWCOw%3D%3D&srsltid=AfmBOooMUOWi5srf018ysKwVhwWUkDJeITzz1FkTeUV7TB8mjG7RWx6O"
+			(at 35.56 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "3.8V-3.2V In, 5V Out, 2A Out, 3.8V-32V, 1.1MHz, -40C to +85C"
+			(at 35.56 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "05.06"
+			(at 35.56 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,7 +11789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -10955,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -10965,6 +11808,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/0402B104K100CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVQ%2FVncd6IqtM%3D"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.1 uF, 10VDC, +/-10%, -55C to +125C"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "00.04"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -11215,7 +12085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -11224,7 +12094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -11234,6 +12104,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "47 pF, 60VDC, +/-5%, -55C to 125C"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206N470J500CT?qs=ZrPdAQfJ6DPJJtFw3Gh3Gg%3D%3D"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.058"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -11284,7 +12181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 45.72 118.11 0)
 			(effects
 				(font
@@ -11293,7 +12190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 45.72 118.11 0)
 			(effects
 				(font
@@ -11303,6 +12200,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B475KAHNNNE?qs=349EhDEZ59oSE8dT4yS8Ow%3D%3D"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.067"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "4.7 uF, 25 VDC,+/-10%, -55C to +125C"
 			(at 45.72 118.11 0)
 			(effects
 				(font
@@ -11344,7 +12268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2x22uF"
+		(property "Value" "22uF"
 			(at 110.49 177.7999 0)
 			(effects
 				(font
@@ -11353,7 +12277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 105.7148 172.72 0)
 			(effects
 				(font
@@ -11362,7 +12286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -11372,6 +12296,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31A226KAHNNNE?qs=X6jEic%2FHinCdwsjGJII51w%3D%3D"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "22 uF, 25VDC, +/-10%, -55C to +85C"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.076"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -11489,7 +12440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TDK_NLV25_2.5x2.0mm"
 			(at 99.06 170.18 0)
 			(effects
 				(font
@@ -11498,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74479325207247.pdf"
 			(at 99.06 170.18 0)
 			(effects
 				(font
@@ -11508,6 +12459,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 99.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/74479325207247?qs=sGAEpiMZZMv126LJFLh8yz45cmI%252ByXhRb9SDSs%252BnERg%3D"
+			(at 99.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "4.7 uH, 128 mOhms, 25 MHz, -55 to +150 C "
+			(at 99.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.311"
 			(at 99.06 170.18 0)
 			(effects
 				(font
@@ -11526,6 +12504,72 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb56775-39c9-4384-935a-9873fbbf4370")
+		(property "Reference" "#PWR027"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1be752-8925-403c-8fdf-2af4fd7bdf33")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11568,7 +12612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/Middle_and_High_Voltage_DS.pdf"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -11613,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "specs" "100nF, 250VDC, X7R, 10%, -55C, +125C"
+		(property "specs" "100nF, 250VDC, X7R, +/-10%, -55C to +125C"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -11622,7 +12666,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "0.062"
+		(property "unit x10" "0.042"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -11736,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -11745,7 +12789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -11756,6 +12800,33 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/KOA-Speer/RK73B2BTTD390J?qs=sGAEpiMZZMvdGkrng054t7JT%252BZ6rIJkYlNcyVLEZTg4%3D"
+			(at 44.45 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "39Ohms, 200V,1/4 W, 5%, -55 to +155 C  "
+			(at 44.45 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.022"
+			(at 44.45 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +12877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 251.46 91.44 0)
 			(effects
 				(font
@@ -11815,7 +12886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GRM155R61J334KE01-01A.pdf"
 			(at 251.46 91.44 0)
 			(effects
 				(font
@@ -11825,6 +12896,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R61J334KE01J?qs=sGAEpiMZZMsh%252B1woXyUXjwyVslzaSs8pY%2Fexa%252BQu2d4%3D"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.33 uF, 63VDC, +/-10%, -55C to +125C"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.031"
 			(at 251.46 91.44 0)
 			(effects
 				(font
@@ -12274,7 +13372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 209.55 86.36 0)
 			(effects
 				(font
@@ -12283,7 +13381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 209.55 86.36 0)
 			(effects
 				(font
@@ -12293,6 +13391,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206B104K251CT?qs=fIkAfuXiAQKkmX5niKUTKw%3D%3D"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "100nF, 250VDC, X7R, +/-10%, -55C to +125C"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.042"
 			(at 209.55 86.36 0)
 			(effects
 				(font
@@ -12406,7 +13531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.61 55.88 0)
 			(effects
 				(font
@@ -12415,7 +13540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 181.61 55.88 0)
 			(effects
 				(font
@@ -12426,6 +13551,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 181.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206N150F500CT?qs=ZrPdAQfJ6DPoVzlTiooFTg%3D%3D"
+			(at 181.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "15 pF, 50 VDC, +/-1%, -55C to +125C"
+			(at 181.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "00.23"
+			(at 181.61 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12608,7 +13760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 188.9252 30.48 0)
 			(effects
 				(font
@@ -12617,7 +13769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 187.96 26.67 0)
 			(effects
 				(font
@@ -12627,6 +13779,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206B104K251CT?qs=fIkAfuXiAQKkmX5niKUTKw%3D%3D"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "100nF, 250VDC, X7R, +/-10%, -55C to +125C"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.042"
 			(at 187.96 26.67 0)
 			(effects
 				(font
@@ -12677,7 +13856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 34.29 118.11 0)
 			(effects
 				(font
@@ -12686,7 +13865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
 			(at 34.29 118.11 0)
 			(effects
 				(font
@@ -12696,6 +13875,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206B474K100CT?qs=ZrPdAQfJ6DMKbr56A%2F9GRA%3D%3D"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "0.47 uF, 10 VDC, +/-10%, -55C to +125"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.076"
 			(at 34.29 118.11 0)
 			(effects
 				(font
@@ -12746,7 +13952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -12755,7 +13961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -12765,6 +13971,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Walsin/1206X106J250CT?qs=u16ybLDytRaD56e%252BbKDXkA%3D%3D"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "10 uF, 25 VDC, +/-5%, -55C to +85"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "0.202"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -12882,7 +14115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LV Sensor:MCP2518FDT"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:MCP2518FDT"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -12929,7 +14162,7 @@
 				(hide yes)
 			)
 		)
-		(property "unit x10" "19.6 "
+		(property "unit x10" "19.60"
 			(at 202.438 9.144 0)
 			(effects
 				(font
@@ -13019,7 +14252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AP63203WU-7_DIO"
+		(property "Footprint" "LV-Sensor-Footprints-Lib:AP6320xWU-7_DIO"
 			(at 104.14 174.752 0)
 			(effects
 				(font
@@ -13029,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AP63203WU-7"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0007089856/DIOD-S-A0007089856-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
 			(at 106.68 175.006 0)
 			(effects
 				(font
@@ -13041,6 +14274,33 @@
 		)
 		(property "Description" ""
 			(at 90.17 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
+			(at 90.17 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "specs" "3.8V-3.2V In, 3.3V Out, 2A Out, 3.8V-32V, 1.1MHz, -40C to +85C"
+			(at 90.17 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "unit x10" "05.06"
+			(at 90.17 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)

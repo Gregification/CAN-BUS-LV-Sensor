@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LV-Sensor-Lib")(type "KiCad")(uri "C:/Users/FSAE/Desktop/dev/CAN-BUS-LV-Sensor/kicad/Symbols/LV-Sensor-Lib.kicad_sym")(options "")(descr ""))
+)

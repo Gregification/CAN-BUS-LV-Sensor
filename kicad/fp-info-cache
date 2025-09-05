@@ -1,4 +1,4 @@
-25650178322725095
+25646673136844407
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67864,34 +67864,69 @@ Yellow 5381 Series LED
 0
 2
 2
-LV Sensor
-74LVC1G3157GW_SOT363-2
+LV-Sensor-Footprints-Lib
+AP6320xWU-7_DIO
 
-
+AP63203WU-7 
 0
 6
 6
-LV Sensor
+LV-Sensor-Footprints-Lib
+CDFN4_2P5X2_MCH
+
+DSC1001DL5-020.0000T 
+0
+4
+4
+LV-Sensor-Footprints-Lib
+DBV0005A-IPC_A
+
+TLV77325PDBVR 
+0
+5
+5
+LV-Sensor-Footprints-Lib
+M08A
+
+LM2662MX/NOPB 
+0
+8
+8
+LV-Sensor-Footprints-Lib
 MCP2518FDT
 
 
 0
 14
 14
-Library
-Untitled
+LV-Sensor-Footprints-Lib
+PBS0032A_N
 
+ADS114S06BIPBSR 
+0
+32
+32
+LV-Sensor-Footprints-Lib
+SOIC8_4P9X3P9MC_MCH
 
+ATA6561-GAQW-N 
 0
-14
-14
-Library
-mcp251fd soic14
-SOIC, 10 Pin (https://www.onsemi.com/pub/Collateral/751BQ.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO SOIC-10 NB
+8
+8
+LV-Sensor-Footprints-Lib
+SSOP-20_FTD
+
+FT231XS-R 
 0
-10
-10
+20
+20
+LV-Sensor-Footprints-Lib
+TSSOP20_PW_TEX
+
+XMSM0C1104SPW20R 
+0
+20
+20
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -102668,55 +102703,6 @@ Varistor VF
 0
 2
 2
-footprints
-DBV0005A-IPC_A
-
-TLV77312PDBVR 
-0
-5
-5
-footprints
-DBV0005A-IPC_B
-
-TLV77312PDBVR 
-0
-5
-5
-footprints
-DBV0005A-IPC_C
-
-TLV77312PDBVR 
-0
-5
-5
-footprints
-DBV0005A-MFG
-
-TLV77312PDBVR 
-0
-5
-5
-footprints
-TSSOP20_PW_TEX
-
-XMSM0C1104SPW20R 
-0
-20
-20
-footprints
-TSSOP20_PW_TEX-L
-
-XMSM0C1104SPW20R 
-0
-20
-20
-footprints
-TSSOP20_PW_TEX-M
-
-XMSM0C1104SPW20R 
-0
-20
-20
 zzLocalLibraries-Footprints
 BQ76952_PFB48_TEX
 
