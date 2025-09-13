@@ -1,0 +1,203 @@
+******************************************************************************
+            TI ARM Clang Linker PC v4.0.4                      
+******************************************************************************
+>> Linked Thu Sep 11 12:09:38 2025
+
+OUTPUT FILE NAME:   <c1104 test.out>
+ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000000c1
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00004000  000000f8  00003f08  R  X
+  SRAM                  20000000   00000400  00000040  000003c0  RW X
+  BCR_CONFIG            41c00000   00000080  00000000  00000080  R   
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    000000f8   000000f8    r-x
+  00000000    00000000    000000c0   000000c0    r-- .intvecs
+  000000c0    000000c0    00000038   00000038    r-x .text
+200003c0    200003c0    00000040   00000000    rw-
+  200003c0    200003c0    00000040   00000000    rw- .stack
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    000000c0     
+                  00000000    000000c0     startup_mspm0c110x_ticlang.o (.intvecs)
+
+.text      0    000000c0    00000038     
+                  000000c0    00000020     libc.a : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs)
+                  000000e0    00000006            : exit.c.obj (.text:abort)
+                  000000e6    00000004     libsysbm.a : hostexit.c.obj (.text.HOSTexit)
+                  000000ea    00000004     startup_mspm0c110x_ticlang.o (.text.Reset_Handler)
+                  000000ee    00000004     libc.a : pre_init.c.obj (.text._system_pre_init)
+                  000000f2    00000002     startup_mspm0c110x_ticlang.o (.text.Default_Handler)
+                  000000f4    00000002     main.o (.text.main)
+                  000000f6    00000002     --HOLE-- [fill = 0]
+
+.cinit     0    00000000    00000000     
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.binit     0    00000000    00000000     
+
+.stack     0    200003c0    00000040     UNINITIALIZED
+                  200003c0    00000004     libc.a : boot_cortex_m.c.obj (.stack)
+                  200003c4    0000003c     --HOLE--
+
+__llvm_prf_cnts 
+*          0    20000000    00000000     UNINITIALIZED
+
+__llvm_prf_bits 
+*          0    20000000    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module                         code   ro data   rw data
+       ------                         ----   -------   -------
+    .\
+       startup_mspm0c110x_ticlang.o   6      192       0      
+       main.o                         2      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         8      192       0      
+                                                              
+    C:\ti\ccs1281\ccs\tools\compiler\ti-cgt-armllvm_4.0.4.LTS\lib\armv6m-ti-none-eabi/c/libc.a
+       boot_cortex_m.c.obj            32     0         0      
+       exit.c.obj                     6      0         0      
+       pre_init.c.obj                 4      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         42     0         0      
+                                                              
+    C:\ti\ccs1281\ccs\tools\compiler\ti-cgt-armllvm_4.0.4.LTS\lib\armv6m-ti-none-eabi/c/libsysbm.a
+       hostexit.c.obj                 4      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         4      0         0      
+                                                              
+       Stack:                         0      0         64     
+    +--+------------------------------+------+---------+---------+
+       Grand Total:                   54     192       64     
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                    
+-------   ----                    
+000000f3  ADC0_IRQHandler         
+000000e6  C$$EXIT                 
+000000f3  DMA_IRQHandler          
+000000f3  Default_Handler         
+000000f3  GPIOA_IRQHandler        
+000000f3  GROUP0_IRQHandler       
+000000e7  HOSTexit                
+000000f3  HardFault_Handler       
+000000f3  I2C0_IRQHandler         
+000000f3  NMI_Handler             
+000000f3  PendSV_Handler          
+000000eb  Reset_Handler           
+000000f3  SPI0_IRQHandler         
+000000f3  SVC_Handler             
+000000f3  SysTick_Handler         
+000000f3  TIMA0_IRQHandler        
+000000f3  TIMG14_IRQHandler       
+000000f3  TIMG8_IRQHandler        
+000000f3  UART0_IRQHandler        
+20000400  __STACK_END             
+00000040  __STACK_SIZE            
+00000000  __TI_ATRegion0_region_sz
+00000000  __TI_ATRegion0_src_addr 
+00000000  __TI_ATRegion0_trg_addr 
+00000000  __TI_ATRegion1_region_sz
+00000000  __TI_ATRegion1_src_addr 
+00000000  __TI_ATRegion1_trg_addr 
+00000000  __TI_ATRegion2_region_sz
+00000000  __TI_ATRegion2_src_addr 
+00000000  __TI_ATRegion2_trg_addr 
+00000000  __TI_CINIT_Base         
+00000000  __TI_CINIT_Limit        
+00000000  __TI_CINIT_Warm         
+ffffffff  __TI_pprof_out_hndl     
+ffffffff  __TI_prof_data_size     
+ffffffff  __TI_prof_data_start    
+00000000  __TI_static_base__      
+ffffffff  __binit__               
+UNDEFED   __mpu_init              
+200003c0  __stack                 
+20000000  __start___llvm_prf_bits 
+20000000  __start___llvm_prf_cnts 
+20000000  __stop___llvm_prf_bits  
+20000000  __stop___llvm_prf_cnts  
+000000c1  _c_int00_noinit_noargs  
+000000ef  _system_pre_init        
+000000e1  abort                   
+ffffffff  binit                   
+00000000  interruptVectors        
+000000f5  main                    
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                    
+-------   ----                    
+00000000  __TI_ATRegion0_region_sz
+00000000  __TI_ATRegion0_src_addr 
+00000000  __TI_ATRegion0_trg_addr 
+00000000  __TI_ATRegion1_region_sz
+00000000  __TI_ATRegion1_src_addr 
+00000000  __TI_ATRegion1_trg_addr 
+00000000  __TI_ATRegion2_region_sz
+00000000  __TI_ATRegion2_src_addr 
+00000000  __TI_ATRegion2_trg_addr 
+00000000  __TI_CINIT_Base         
+00000000  __TI_CINIT_Limit        
+00000000  __TI_CINIT_Warm         
+00000000  __TI_static_base__      
+00000000  interruptVectors        
+00000040  __STACK_SIZE            
+000000c1  _c_int00_noinit_noargs  
+000000e1  abort                   
+000000e6  C$$EXIT                 
+000000e7  HOSTexit                
+000000eb  Reset_Handler           
+000000ef  _system_pre_init        
+000000f3  ADC0_IRQHandler         
+000000f3  DMA_IRQHandler          
+000000f3  Default_Handler         
+000000f3  GPIOA_IRQHandler        
+000000f3  GROUP0_IRQHandler       
+000000f3  HardFault_Handler       
+000000f3  I2C0_IRQHandler         
+000000f3  NMI_Handler             
+000000f3  PendSV_Handler          
+000000f3  SPI0_IRQHandler         
+000000f3  SVC_Handler             
+000000f3  SysTick_Handler         
+000000f3  TIMA0_IRQHandler        
+000000f3  TIMG14_IRQHandler       
+000000f3  TIMG8_IRQHandler        
+000000f3  UART0_IRQHandler        
+000000f5  main                    
+20000000  __start___llvm_prf_bits 
+20000000  __start___llvm_prf_cnts 
+20000000  __stop___llvm_prf_bits  
+20000000  __stop___llvm_prf_cnts  
+200003c0  __stack                 
+20000400  __STACK_END             
+ffffffff  __TI_pprof_out_hndl     
+ffffffff  __TI_prof_data_size     
+ffffffff  __TI_prof_data_start    
+ffffffff  __binit__               
+ffffffff  binit                   
+UNDEFED   __mpu_init              
+
+[50 symbols]
