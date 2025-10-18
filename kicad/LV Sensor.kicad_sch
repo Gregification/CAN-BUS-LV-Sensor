@@ -399,6 +399,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -5168,6 +5318,12 @@
 		(uuid "da9092e1-4300-428b-8347-f01282141142")
 	)
 	(junction
+		(at 248.92 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "095c1edf-28d5-452a-9cbc-b4132b35a68b")
+	)
+	(junction
 		(at 33.02 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5234,6 +5390,18 @@
 		(uuid "2d0055a9-45a8-44bd-bbe4-9118eaaab094")
 	)
 	(junction
+		(at 267.97 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e54c930-0c72-44ce-aa9d-5c995d9e3f73")
+	)
+	(junction
+		(at 257.81 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fdd6da1-3176-4fc8-9845-57a8c4eb4264")
+	)
+	(junction
 		(at 27.94 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5288,6 +5456,12 @@
 		(uuid "4d4f9628-c837-4d45-bd27-b862325160ae")
 	)
 	(junction
+		(at 259.08 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e7cd776-c63c-41d3-adb8-05b89918bbe8")
+	)
+	(junction
 		(at 101.6 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5300,6 +5474,12 @@
 		(uuid "51f8bb89-3fee-44cf-871e-84541fd2b883")
 	)
 	(junction
+		(at 250.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "527d2303-2624-48be-854d-2b8493180da3")
+	)
+	(junction
 		(at 238.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5310,6 +5490,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59aa1767-66dd-4823-baf2-49a37cc914ae")
+	)
+	(junction
+		(at 259.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c9a5cba-becf-4269-9318-d1619c8cae14")
 	)
 	(junction
 		(at 142.24 83.82)
@@ -5340,6 +5526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f289ed-9859-4780-972c-5eb7fbcad5e2")
+	)
+	(junction
+		(at 266.7 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f09977-0b6a-4dd7-8266-03175f3f22f2")
 	)
 	(junction
 		(at 36.83 21.59)
@@ -5390,6 +5582,12 @@
 		(uuid "8f491d20-8f03-4f42-9942-81dc959b94da")
 	)
 	(junction
+		(at 267.97 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9559d951-6840-466d-9ece-cdfce4c98264")
+	)
+	(junction
 		(at 153.67 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5402,10 +5600,22 @@
 		(uuid "9ad4c7e1-7a2e-41a3-aa8d-2e1f545f015e")
 	)
 	(junction
+		(at 267.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb6d2ca-7562-419e-8a6b-948dc5fb0804")
+	)
+	(junction
 		(at 35.56 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ceb90c1-6975-47d7-bd1d-d40b885fe2d9")
+	)
+	(junction
+		(at 259.08 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61edc40-347f-40f8-8227-5882636f4b09")
 	)
 	(junction
 		(at 274.32 31.75)
@@ -5456,6 +5666,12 @@
 		(uuid "b76ed79d-0945-413a-ba19-0d586b8b0bf2")
 	)
 	(junction
+		(at 250.19 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc13e9c0-45c9-4ca7-a909-ea5e00118c21")
+	)
+	(junction
 		(at 109.22 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,6 +5706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9322c7-6808-44cd-b650-6c0e0945a2f8")
+	)
+	(junction
+		(at 250.19 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df7a3c71-b976-4cd0-92c4-402462c96d92")
 	)
 	(junction
 		(at 21.59 21.59)
@@ -5611,6 +5833,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 127) (xy 267.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0595a6c4-2fd6-4f09-812c-f8a80b60ee00")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 147.32 83.82)
 		)
 		(stroke
@@ -5628,6 +5860,16 @@
 			(type default)
 		)
 		(uuid "05d4b34e-c500-44ec-b6fb-b84e292a508f")
+	)
+	(wire
+		(pts
+			(xy 250.19 101.6) (xy 250.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0625b782-6452-4277-8678-17ef2389d71f")
 	)
 	(wire
 		(pts
@@ -5741,6 +5983,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 101.6) (xy 267.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151b7e35-d3bc-4993-9dd4-bfc7ff64054f")
+	)
+	(wire
+		(pts
 			(xy 269.24 29.21) (xy 271.78 29.21)
 		)
 		(stroke
@@ -5778,6 +6030,16 @@
 			(type default)
 		)
 		(uuid "189c5ffd-c137-4cf1-9b66-0ea48c5c5ba8")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a92f7b1-b794-4e3a-81ca-4535c03d8e3c")
 	)
 	(wire
 		(pts
@@ -5881,6 +6143,26 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 152.4) (xy 276.86 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2577a0e8-e771-4d49-80ac-e9e4fc39520d")
+	)
+	(wire
+		(pts
+			(xy 255.27 152.4) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25970e07-3e53-46be-bb28-dd536cea3845")
+	)
+	(wire
+		(pts
 			(xy 30.48 87.63) (xy 30.48 102.87)
 		)
 		(stroke
@@ -5971,6 +6253,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 101.6) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33283d3f-05cf-41f7-bfca-37c2d19127c9")
+	)
+	(wire
+		(pts
 			(xy 19.05 107.95) (xy 19.05 109.22)
 		)
 		(stroke
@@ -6048,6 +6340,16 @@
 			(type default)
 		)
 		(uuid "389ff0bb-98a4-416a-918f-91a78c1b13b8")
+	)
+	(wire
+		(pts
+			(xy 215.9 127) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa1feac-6abd-40b9-baeb-b80e162f72c3")
 	)
 	(wire
 		(pts
@@ -6191,6 +6493,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 127) (xy 267.97 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493f34c4-8d69-4573-aa23-f191a7902871")
+	)
+	(wire
+		(pts
 			(xy 271.78 17.78) (xy 271.78 24.13)
 		)
 		(stroke
@@ -6208,6 +6520,16 @@
 			(type default)
 		)
 		(uuid "4afe3d09-a064-40e6-9e3a-395e52fe841d")
+	)
+	(wire
+		(pts
+			(xy 267.97 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4becc1b8-6e27-488e-8abb-3d728bce23b7")
 	)
 	(wire
 		(pts
@@ -6261,6 +6583,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 152.4) (xy 248.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5efdd9-49d5-4514-9358-5e9865dfa2ea")
+	)
+	(wire
+		(pts
 			(xy 40.64 82.55) (xy 49.53 82.55)
 		)
 		(stroke
@@ -6308,6 +6640,16 @@
 			(type default)
 		)
 		(uuid "50f8ca6e-aad1-4ed2-9f7e-9bcd7f2f5a1a")
+	)
+	(wire
+		(pts
+			(xy 259.08 101.6) (xy 267.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f3f999-1436-4bf6-85b0-bb673f057390")
 	)
 	(wire
 		(pts
@@ -6421,6 +6763,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 152.4) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4beebf-eed7-44ad-ada8-841dc51d471f")
+	)
+	(wire
+		(pts
 			(xy 189.23 88.9) (xy 191.77 88.9)
 		)
 		(stroke
@@ -6451,6 +6803,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 152.4) (xy 248.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612072d2-41dc-471a-82a8-cf9282065b35")
+	)
+	(wire
+		(pts
 			(xy 92.71 182.88) (xy 93.98 182.88)
 		)
 		(stroke
@@ -6468,6 +6830,16 @@
 			(type default)
 		)
 		(uuid "65c139bc-8f13-4d69-b505-6c02daf5816b")
+	)
+	(wire
+		(pts
+			(xy 248.92 152.4) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6637a724-351f-4d99-a53f-d0d9145bb191")
 	)
 	(wire
 		(pts
@@ -6511,6 +6883,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 76.2) (xy 267.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af836fb-d173-4461-af13-c4b77aafc890")
+	)
+	(wire
+		(pts
+			(xy 251.46 127) (xy 250.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba9ac97-bf33-4263-a49c-3de0f7314eab")
+	)
+	(wire
+		(pts
 			(xy 142.24 88.9) (xy 142.24 83.82)
 		)
 		(stroke
@@ -6528,6 +6920,16 @@
 			(type default)
 		)
 		(uuid "6deaa9c6-84ef-454f-ad91-90066a8c0019")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 267.97 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f098db0-b383-4316-91f4-e40377c0d40c")
 	)
 	(wire
 		(pts
@@ -6558,6 +6960,16 @@
 			(type default)
 		)
 		(uuid "73318f8e-824e-4e22-b27d-e9ce49be223f")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735cc29e-8a3f-4434-bd22-158279846666")
 	)
 	(wire
 		(pts
@@ -6618,6 +7030,16 @@
 			(type default)
 		)
 		(uuid "75fdf02d-4c35-4862-982e-f44a312540e8")
+	)
+	(wire
+		(pts
+			(xy 259.08 76.2) (xy 267.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764cdecf-1935-4d29-a9fb-62281e538548")
 	)
 	(wire
 		(pts
@@ -6701,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81055043-39bc-45f8-934e-287594457a9a")
+	)
+	(wire
+		(pts
 			(xy 46.99 100.33) (xy 46.99 105.41)
 		)
 		(stroke
@@ -6731,6 +7163,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 101.6) (xy 276.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873739a2-692a-4fdc-8f89-ed7047fffe15")
+	)
+	(wire
+		(pts
 			(xy 21.59 41.91) (xy 40.64 41.91)
 		)
 		(stroke
@@ -6748,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "8b682ed1-3bb0-4b61-8ae4-6bba154ae489")
+	)
+	(wire
+		(pts
+			(xy 267.97 76.2) (xy 269.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c044c15-b8a6-4bb6-9a39-c9714120a4d8")
 	)
 	(wire
 		(pts
@@ -6781,6 +7233,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 101.6) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee4b2ba-57ca-41eb-b9eb-bacaead56e93")
+	)
+	(wire
+		(pts
 			(xy 147.32 82.55) (xy 147.32 83.82)
 		)
 		(stroke
@@ -6811,6 +7273,26 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 127) (xy 250.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914ae289-f01b-4544-bbb7-45279ceb6ddf")
+	)
+	(wire
+		(pts
+			(xy 250.19 76.2) (xy 250.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91acfd3f-e282-452b-aaa9-b1b137a00185")
+	)
+	(wire
+		(pts
 			(xy 101.6 160.02) (xy 101.6 162.56)
 		)
 		(stroke
@@ -6838,6 +7320,16 @@
 			(type default)
 		)
 		(uuid "95938a63-e3ae-4cda-b3f2-ba8e3c0e6bfd")
+	)
+	(wire
+		(pts
+			(xy 274.32 76.2) (xy 276.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b00558-654c-4d7f-8125-fcb2ea326b1e")
 	)
 	(wire
 		(pts
@@ -7018,6 +7510,16 @@
 			(type default)
 		)
 		(uuid "a9d12b3a-4f3c-4b2c-b55d-578f961266de")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 266.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6f93ec-48c6-4cf3-bae0-a1d53b928c5e")
 	)
 	(wire
 		(pts
@@ -7241,6 +7743,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 76.2) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28ed4c0-5db6-42b1-a7f5-912cb0361d2c")
+	)
+	(wire
+		(pts
 			(xy 22.86 163.83) (xy 22.86 189.23)
 		)
 		(stroke
@@ -7281,6 +7793,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 76.2) (xy 250.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e9cec0-77b2-43fc-91d5-845e0881d16e")
+	)
+	(wire
+		(pts
 			(xy 147.32 83.82) (xy 151.13 83.82)
 		)
 		(stroke
@@ -7291,6 +7813,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 101.6) (xy 259.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86fa4af-14fd-432f-a984-80620698a9b3")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dbd8f4-fe99-4a98-a4e1-d49e94419190")
+	)
+	(wire
+		(pts
 			(xy 109.22 175.26) (xy 109.22 166.37)
 		)
 		(stroke
@@ -7298,6 +7840,16 @@
 			(type default)
 		)
 		(uuid "cacec664-e88d-434d-b036-3c0984b374ed")
+	)
+	(wire
+		(pts
+			(xy 250.19 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafa3bb5-ac4d-4210-a76b-474c0e0b0cd8")
 	)
 	(wire
 		(pts
@@ -7391,6 +7943,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 76.2) (xy 259.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40d6ddb-b9c4-44d6-97f3-ab461ffca7a3")
+	)
+	(wire
+		(pts
 			(xy 101.6 46.99) (xy 101.6 114.3)
 		)
 		(stroke
@@ -7408,6 +7970,16 @@
 			(type default)
 		)
 		(uuid "d6ad8ebe-1c50-40f2-b5e2-c4a1261e7d25")
+	)
+	(wire
+		(pts
+			(xy 274.32 127) (xy 276.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76e1f4d-6335-44a6-8ef0-cf1d555e07ee")
 	)
 	(wire
 		(pts
@@ -7491,6 +8063,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 116.84) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1664adc-ba2c-4cba-9ccd-d55bc848d8f0")
+	)
+	(wire
+		(pts
 			(xy 72.39 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -7518,6 +8100,16 @@
 			(type default)
 		)
 		(uuid "e28fcb9f-054a-4c3f-97b9-7398d975da5f")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34d0c16-2d95-4fe4-ac33-13c6b33e9f87")
 	)
 	(wire
 		(pts
@@ -7618,6 +8210,16 @@
 			(type default)
 		)
 		(uuid "f0c5329f-fbe6-4871-9fbd-aa90e98f5c46")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1756b1a-535e-47ee-8844-57e74a7dbd78")
 	)
 	(wire
 		(pts
@@ -7761,6 +8363,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 127) (xy 250.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd693a5d-2e75-4682-a464-d8d9d33382ec")
+	)
+	(wire
+		(pts
 			(xy 165.1 170.18) (xy 165.1 173.99)
 		)
 		(stroke
@@ -7781,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 127) (xy 269.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0635c4-db07-45d7-84f8-d7abb2462a42")
+	)
+	(wire
+		(pts
 			(xy 158.75 184.15) (xy 158.75 189.23)
 		)
 		(stroke
@@ -7788,6 +8410,16 @@
 			(type default)
 		)
 		(uuid "ff41ba9c-c7b2-4201-83ab-2ebc456bafcd")
+	)
+	(label "A0_in"
+		(at 276.86 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad6b9b0-3ce5-4197-9e2b-b12af3bbf652")
 	)
 	(label "CAN_H"
 		(at 214.63 29.21 0)
@@ -7849,6 +8481,16 @@
 		)
 		(uuid "37756dfe-aa26-44f2-965e-25647ab1f323")
 	)
+	(label "A1_in"
+		(at 276.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "404faab6-1d33-4616-b52c-76435140dd9b")
+	)
 	(label "2V5 OUT"
 		(at 165.1 170.18 0)
 		(effects
@@ -7858,6 +8500,16 @@
 			(justify left bottom)
 		)
 		(uuid "67054d9d-f27d-4f7f-993f-0c393eccb4ac")
+	)
+	(label "A3_in"
+		(at 276.86 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "810572ac-50aa-4c93-8c4a-6b9917690ec4")
 	)
 	(label "CAN_L"
 		(at 214.63 31.75 0)
@@ -7889,6 +8541,16 @@
 		)
 		(uuid "e4a690a2-6868-423d-a39c-2f7bb39e1ecc")
 	)
+	(label "A2_in"
+		(at 276.86 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ea6313-9f1e-4637-bcdb-2cbe9fb35f26")
+	)
 	(label "UART0_CTS"
 		(at 82.55 49.53 0)
 		(effects
@@ -7908,6 +8570,74 @@
 			(justify left bottom)
 		)
 		(uuid "f5d5d170-9e34-4fde-a474-f23221392f0d")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 270.51 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02486f93-e9d6-4b5d-b1ab-00ebe94256d6")
+		(property "Reference" "R19"
+			(at 270.51 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k"
+			(at 270.51 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1c82f3f-5017-4faa-8973-98f8a8bd4890")
+		)
+		(pin "1"
+			(uuid "2962e563-aa01-4e09-8d64-f76f0aa11348")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7970,6 +8700,72 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09bc6224-138d-4c72-99c0-73ec764baf65")
+		(property "Reference" "#PWR029"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11068da9-478a-45ee-8ea5-8defea734075")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8349,6 +9145,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 248.92 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe06171-449a-4ddf-a61f-aba97418c410")
+		(property "Reference" "#PWR038"
+			(at 248.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24af9394-390b-4bca-9c2d-92a238e8a88a")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 24.13 137.16 90)
 		(unit 1)
@@ -8580,6 +9442,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 271.78 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1581602e-fef3-4bd1-af1e-814881678dcb")
+		(property "Reference" "R4"
+			(at 271.78 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k"
+			(at 271.78 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa9658cc-ffe4-416e-9ee9-ab85402ac5e0")
+		)
+		(pin "1"
+			(uuid "9892a5d5-812d-4bde-b929-c70e8cf28d61")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 165.1 179.07 0)
 		(unit 1)
@@ -8743,6 +9673,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d5f3e6-fbfd-4adf-a2d0-2fbc207e3f0a")
+		(property "Reference" "#PWR040"
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3fd4c9-7c51-40c3-8f9f-ad9457145ee3")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 53.34 172.72 0)
 		(unit 1)
@@ -8834,6 +9830,146 @@
 			(project ""
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c5ac4b-33a8-415d-932c-38f224b8be94")
+		(property "Reference" "D6"
+			(at 261.62 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/84830/plzseries.pdf"
+			(at 259.08 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7255a8b-bbe5-4cf6-8224-58693d866caa")
+		)
+		(pin "1"
+			(uuid "81877578-7246-4d04-b835-7a9006a065a9")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd580fd-be3c-46ee-a905-ccca7af91740")
+		(property "Reference" "D3"
+			(at 261.62 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "902d893c-6174-4883-b236-784c5f065e64")
+		)
+		(pin "1"
+			(uuid "56764dd1-ceae-44a2-a3c9-026de73ea68c")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9040,6 +10176,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 267.97 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2547c7ff-113e-4a55-9444-8dec5bcb9b2f")
+		(property "Reference" "R14"
+			(at 270.51 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32k"
+			(at 270.51 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db2e8d47-31af-4b22-84e6-701a803cffdf")
+		)
+		(pin "1"
+			(uuid "cd29f85b-58e6-4bbf-8525-17d64030d1ea")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 154.94 31.75 270)
 		(unit 1)
@@ -9197,6 +10403,142 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8769c3-a03a-4a9c-8568-894716fa047d")
+		(property "Reference" "#PWR030"
+			(at 250.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc4bd06-93be-4c55-a056-831783b65e09")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 267.97 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359c2f38-d30b-4f78-8c83-21a8a2eefafc")
+		(property "Reference" "R10"
+			(at 270.51 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32k"
+			(at 270.51 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4339275-a84a-4575-9424-299dd094fd1a")
+		)
+		(pin "1"
+			(uuid "5ff83793-8371-423f-a9be-00bb844024e3")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9796,6 +11138,72 @@
 			(project ""
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45aa6d81-ef05-4136-ba46-56482cd1e5f0")
+		(property "Reference" "#PWR034"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8463d4-49cb-4d1a-b3fa-7b6dbc6b74c8")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10415,6 +11823,74 @@
 			(project ""
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 271.78 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "566ed787-a609-487b-81b8-0b0f8aa056b4")
+		(property "Reference" "R11"
+			(at 271.78 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k"
+			(at 271.78 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "869c7d69-9d0f-4b54-9f49-c033a95bb0dc")
+		)
+		(pin "1"
+			(uuid "accc2189-7ac8-4270-b08a-ef83d5fbbb70")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11172,6 +12648,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734bdf49-7333-4949-affe-83a8c3e56670")
+		(property "Reference" "D5"
+			(at 261.62 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9db9e6d7-34e2-4690-8648-3054fbf03281")
+		)
+		(pin "1"
+			(uuid "324538d5-039f-48a4-b17e-50fc58ed9c78")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 29.21 24.13 0)
 		(mirror y)
@@ -11896,6 +13442,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 257.81 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1805dc-d036-4570-a435-7a0e8ab983e8")
+		(property "Reference" "D8"
+			(at 260.35 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 260.35 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 257.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b20ff9fc-b88b-4286-ac5b-7c36cff5ec86")
+		)
+		(pin "1"
+			(uuid "f3418a8b-c1c3-4f45-aa98-01bcc43c1e30")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b18b145-fb17-4b51-8e7e-5395f825a9ad")
+		(property "Reference" "#PWR036"
+			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c824214f-3c0e-43e3-88d3-113c8bcc7623")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 52.07 270)
 		(unit 1)
@@ -11955,6 +13637,146 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 248.92 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c175da-7586-447f-801d-d4f2c6ac7315")
+		(property "Reference" "R16"
+			(at 251.46 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "400"
+			(at 251.46 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 248.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "755551fd-3815-4198-a798-04fd865c9832")
+		)
+		(pin "1"
+			(uuid "34f687dc-df8d-465f-8760-122d39a45b12")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937c9db7-ff8d-4b5f-b214-1b8579aba2ea")
+		(property "Reference" "D2"
+			(at 261.62 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96ae2d07-e41c-4d06-a309-ee48e658e010")
+		)
+		(pin "1"
+			(uuid "0bc36748-1290-4384-9c8c-5c0ef3045d0b")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12096,6 +13918,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a3def0b-f641-422e-9237-a9de2b4c3461")
+		(property "Reference" "#PWR035"
+			(at 250.19 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71e3eb85-a9af-4314-b16a-fddb3e311c16")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 250.19 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8c271d-3f0e-49d2-b19e-054e1d6a78e2")
+		(property "Reference" "R8"
+			(at 252.73 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "400"
+			(at 252.73 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b42c2716-bcf1-4edc-bf6f-dba2dc8664c2")
+		)
+		(pin "1"
+			(uuid "2d38a3f0-2bea-4f1d-b793-9e1d5f4995f1")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 137.16 19.05 0)
 		(unit 1)
@@ -12156,6 +14114,216 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2687592-7d80-447f-b4a4-f4ee5a624233")
+		(property "Reference" "D1"
+			(at 261.62 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96ae2d07-e41c-4d06-a309-ee48e658e010")
+		)
+		(pin "1"
+			(uuid "0bc36748-1290-4384-9c8c-5c0ef3045d0b")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 257.81 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a7adaa-f0cd-4a91-a245-1c48a27e4303")
+		(property "Reference" "D7"
+			(at 260.35 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 260.35 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 257.81 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d25eb518-7ea4-4a88-aeed-3099c7825c19")
+		)
+		(pin "1"
+			(uuid "d2485607-94fb-4de1-a653-48eec9c083a2")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 259.08 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a652ec15-8b16-46eb-a2a9-5cb18e1ae413")
+		(property "Reference" "D4"
+			(at 261.62 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1V"
+			(at 261.62 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 259.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2564087-e7a3-4900-bc9e-e66744e3cbe0")
+		)
+		(pin "1"
+			(uuid "74db9de5-1873-4006-806c-14c408e762d9")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12459,6 +14627,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 257.81 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac857d7a-59e6-4327-a7b9-5bd681944ba7")
+		(property "Reference" "#PWR039"
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f958071-c524-4b06-9e47-d6182aaaabc0")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 35.56 105.41 0)
 		(unit 1)
@@ -12645,6 +14879,72 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b21770e6-a508-4f8b-b020-63655199db13")
+		(property "Reference" "#PWR037"
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7414893-85d3-45a4-a4f6-298df6f93a05")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12918,6 +15218,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 267.97 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd33bc76-5258-4821-bf3b-4bec576a0037")
+		(property "Reference" "R5"
+			(at 270.51 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32k"
+			(at 270.51 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 267.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c567ad5-d4da-4846-bc98-e055ffb7ae01")
+		)
+		(pin "1"
+			(uuid "8728cd30-de69-4434-9c3b-15c86cf6df71")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 21.59 46.99 0)
 		(mirror y)
@@ -13027,6 +15397,208 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 254 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b0ad99-1b82-4f23-9dfd-6835881e884c")
+		(property "Reference" "R9"
+			(at 254 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 254 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9c907b4-753d-4190-a92c-ccd1debb1daf")
+		)
+		(pin "1"
+			(uuid "151547aa-31b0-4ef0-9d83-76fa4220d53f")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e13a87-9840-433f-b1d0-9770fa27b5f1")
+		(property "Reference" "#PWR033"
+			(at 259.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405f1d51-d4bf-4c88-b3c7-ccd4bf4f3ab3")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 252.73 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c502c0ca-4429-4910-9fbe-092bc4b5c28c")
+		(property "Reference" "R17"
+			(at 252.73 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 252.73 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 252.73 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "862b75d1-f562-4401-918d-1d0bcfa7ba5e")
+		)
+		(pin "1"
+			(uuid "2034c06e-6cd7-40d9-8392-4401c4fdfb3e")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13490,6 +16062,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 259.08 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19bfafd-75bd-4c24-9ae5-0f22b983ebda")
+		(property "Reference" "#PWR031"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bad91dfd-6447-4017-a1d5-c779ca843179")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 121.92 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13914,6 +16552,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 254 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7134c8e-c78f-4e21-aae4-cd559024d81a")
+		(property "Reference" "R6"
+			(at 254 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 254 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3e7c60-6c85-4660-8121-336fa0e316d3")
+		)
+		(pin "1"
+			(uuid "61a4c1f9-8d0f-4cbf-9a6e-cdeef7feff7b")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 59.69 0)
 		(unit 1)
@@ -14002,6 +16708,74 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 254 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd876504-bf07-4ad6-a654-316bbfac4cbc")
+		(property "Reference" "R13"
+			(at 254 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 254 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55436102-60c3-443e-8713-b92d4a888bc4")
+		)
+		(pin "1"
+			(uuid "55eee635-bf2c-4fe2-a718-ad4acaceea1a")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14236,6 +17010,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 250.19 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e462aa2f-0cad-4856-b1bd-6e572cd7055f")
+		(property "Reference" "R7"
+			(at 252.73 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "400"
+			(at 252.73 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 250.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3e7c60-6c85-4660-8121-336fa0e316d3")
+		)
+		(pin "1"
+			(uuid "61a4c1f9-8d0f-4cbf-9a6e-cdeef7feff7b")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LV-Sensor-Lib:MCP2517FD-xJHA")
 		(at 137.16 34.29 0)
 		(mirror y)
@@ -14368,6 +17212,76 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 250.19 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ae92a9-96f1-477f-82c9-6c5686f1f65d")
+		(property "Reference" "R12"
+			(at 252.73 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "400"
+			(at 252.73 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10d0bd69-062a-414a-9239-70e7013da5e0")
+		)
+		(pin "1"
+			(uuid "100520e9-05f5-4a6e-9234-9012ffafff68")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14597,6 +17511,210 @@
 			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2fcf174-3463-415a-b94b-72c27edbacbe")
+		(property "Reference" "#PWR032"
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36175e5e-d99a-46fa-b0f4-ba76396d670d")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 266.7 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4306a36-9f94-4d1e-b031-464254cff56f")
+		(property "Reference" "R18"
+			(at 269.24 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32k"
+			(at 269.24 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "203e07e6-79fb-448c-95f8-dd29b9b50d24")
+		)
+		(pin "1"
+			(uuid "31d66653-4526-4e59-9026-199da88d0077")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 271.78 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c7462c-a4ca-4bb9-b958-476ff84133d5")
+		(property "Reference" "R15"
+			(at 271.78 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k"
+			(at 271.78 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cda7672e-a7f7-473b-94c7-51786c0e6f5a")
+		)
+		(pin "1"
+			(uuid "3a5d662b-6ac1-4008-ab82-0234f1c9a577")
+		)
+		(instances
+			(project "LV Sensor"
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "R15")
 					(unit 1)
 				)
 			)
