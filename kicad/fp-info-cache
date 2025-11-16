@@ -1,4 +1,25 @@
-25646673136844407
+25651962914723793
+ADC2_AND_4
+ADC2_MSOP8_MC_MCH
+
+MCP3202-CI/MS 
+0
+8
+8
+ADC2_AND_4
+ADC4_PDIP14_300MC_MCH
+
+MCP3204-CI/P 
+0
+14
+14
+ADC2_AND_4
+CAN_FD_SOIC127P600X175-14N
+MCP2517FDT-H/SL
+Integrated Circuit
+0
+14
+14
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
