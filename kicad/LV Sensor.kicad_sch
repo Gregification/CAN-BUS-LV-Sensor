@@ -2612,7 +2612,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LV-Sensor-Lib:43650-0415"
+		(symbol "LV-Sensor-Lib:43650-0401"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2625,7 +2625,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "43650-0415"
+			(property "Value" "43650-0401"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -2634,7 +2634,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "43650-04YY_151617"
+			(property "Footprint" "43650-04(00,01,02)"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -2644,7 +2644,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500215_sd.pdf"
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -2654,7 +2654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black"
+			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 4 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2663,7 +2663,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "9.9"
+			(property "Height" "5.57"
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -2673,7 +2673,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-43650-0415"
+			(property "Mouser Part Number" "538-43650-0401"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -2683,7 +2683,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0415?qs=GEJyObWCoZgrB2DNhHHwDQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0401?qs=tCVB0Dok1YBvOr8VX%2FzPCg%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -2703,7 +2703,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "43650-0415"
+			(property "Manufacturer_Part_Number" "43650-0401"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -2713,7 +2713,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "43650-0415_1_1"
+			(symbol "43650-0401_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -10.16)
@@ -8859,16 +8859,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 81.28 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b0acfd-0436-4f26-b21e-dea343633176")
-	)
-	(wire
-		(pts
 			(xy 276.86 73.66) (xy 270.51 73.66)
 		)
 		(stroke
@@ -10309,16 +10299,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 81.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5dc5b3a-cfb7-403f-bc15-2b7cc5e2479c")
-	)
-	(wire
-		(pts
 			(xy 402.59 134.62) (xy 405.13 134.62)
 		)
 		(stroke
@@ -10879,7 +10859,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 81.28 53.34 0)
+		(at 48.26 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10887,31 +10867,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4d4dddf5-47ca-46fe-b658-7b28b859d4d8")
+		(uuid "2026de4e-7ccd-4a65-a45c-41fd95f28ccd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.2524 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 81.28 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5941699b-0310-46bc-982e-578c2f8de372")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.95 55.88 0)
+			(at 57.2324 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,6 +10892,28 @@
 		(uuid "758dfc01-3d4b-4508-88ba-e4782b85481a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 406.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 48.26 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bde57c69-ec17-4fa9-86d8-6936e5817d88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.93 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,132 +15319,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LV-Sensor-Lib:43650-0415")
-		(at 76.2 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "774c91ed-c97e-40b9-acca-2a2274d05710")
-		(property "Reference" "J6"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43650-0415"
-			(at 66.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ADC2_AND_4:43650-04YY_151617"
-			(at 59.69 -39.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500215_sd.pdf"
-			(at 59.69 -139.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black"
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.9"
-			(at 59.69 -339.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-43650-0415"
-			(at 59.69 -439.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0415?qs=GEJyObWCoZgrB2DNhHHwDQ%3D%3D"
-			(at 59.69 -539.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 59.69 -639.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "43650-0415"
-			(at 59.69 -739.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cde6ea20-7490-4f48-9750-49c410f9d64c")
-		)
-		(pin "4"
-			(uuid "fd746753-233a-49a2-b793-6cfc07413af2")
-		)
-		(pin "2"
-			(uuid "1483dda3-b7f6-49ce-841b-b38e39146295")
-		)
-		(pin "1"
-			(uuid "abcbd6d4-102b-4b8d-80fa-cb96e12591c4")
-		)
-		(instances
-			(project ""
-				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 182.88 59.69 0)
 		(mirror y)
@@ -17315,16 +17169,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 48.26 270)
+		(at 48.26 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abf099eb-d025-4e59-bfbe-654325b4cef2")
 		(property "Reference" "#PWR051"
-			(at 72.39 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17333,7 +17186,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 80.01 48.2599 90)
+			(at 52.07 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17342,7 +17195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17351,7 +17204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17360,7 +17213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17225,7 @@
 			(uuid "62982368-5605-4384-a67e-07cdf94bd244")
 		)
 		(instances
-			(project ""
+			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR051")
 					(unit 1)
@@ -19292,7 +19145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 50.8 90)
+		(at 48.26 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19301,7 +19154,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f95438-d853-420f-bcab-005a1add4fdc")
 		(property "Reference" "#PWR052"
-			(at 82.55 50.8 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19310,7 +19163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 50.7999 90)
+			(at 52.07 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19319,7 +19172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 50.8 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19328,7 +19181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 50.8 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19337,7 +19190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 50.8 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19349,7 +19202,7 @@
 			(uuid "9e3336f8-8f49-4465-ad15-8044a9c48e09")
 		)
 		(instances
-			(project ""
+			(project "LV Sensor"
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "#PWR052")
 					(unit 1)
@@ -19922,6 +19775,132 @@
 			(project ""
 				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LV-Sensor-Lib:43650-0401")
+		(at 48.26 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d1a9fc-0b59-46f1-9a7f-1ba0f45f050f")
+		(property "Reference" "J6"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43650-0401"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADC2_AND_4:43650-04YY_151617"
+			(at 31.75 -39.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500200_sd.pdf"
+			(at 31.75 -139.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 4 Circuits, with Snap-in Plastic Peg PCB Lock, Glow-Wire Capable, Black"
+			(at 48.26 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.57"
+			(at 31.75 -339.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0401"
+			(at 31.75 -439.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0401?qs=tCVB0Dok1YBvOr8VX%2FzPCg%3D%3D"
+			(at 31.75 -539.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 31.75 -639.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0401"
+			(at 31.75 -739.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a33715d7-378b-4610-afbe-56f0aeb778c5")
+		)
+		(pin "1"
+			(uuid "2bb427af-afab-4d05-81de-9000aca0ecf4")
+		)
+		(pin "3"
+			(uuid "1435c6b5-d0b1-45eb-b922-d6e26626fefe")
+		)
+		(pin "2"
+			(uuid "baee2cbb-659d-4132-b680-e3ee53cf9795")
+		)
+		(instances
+			(project ""
+				(path "/1afce36f-b357-4e2a-9166-a84df6dcc281"
+					(reference "J6")
 					(unit 1)
 				)
 			)
