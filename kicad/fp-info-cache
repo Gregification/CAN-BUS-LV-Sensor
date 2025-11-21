@@ -1,4 +1,4 @@
-26669875318273236
+26673402665961989
 ADC2_AND_4
 43650-04YY_151617
 43650-04YY_151617
@@ -70630,6 +70630,13 @@ Yellow 5381 Series LED
 2
 2
 LV-Sensor-Footprints-Lib
+43650-04_00,01,02_
+43650-04(00,01,02)
+Connector
+0
+4
+4
+LV-Sensor-Footprints-Lib
 AP6320xWU-7_DIO
 
 AP63203WU-7 
@@ -70678,6 +70685,13 @@ ATA6561-GAQW-N
 0
 8
 8
+LV-Sensor-Footprints-Lib
+SOP50P490X110-20N
+VSSOP - 1.1 mm max height
+Integrated Circuit
+0
+20
+20
 LV-Sensor-Footprints-Lib
 SSOP-20_FTD
 
