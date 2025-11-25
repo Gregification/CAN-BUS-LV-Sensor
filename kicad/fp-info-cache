@@ -1,4 +1,4 @@
-26673402665961989
+26678694024856050
 ADC2_AND_4
 43650-04YY_151617
 43650-04YY_151617
@@ -70637,6 +70637,13 @@ Connector
 4
 4
 LV-Sensor-Footprints-Lib
+830017146
+HC-49/US_2025
+Crystal or Oscillator
+0
+2
+2
+LV-Sensor-Footprints-Lib
 AP6320xWU-7_DIO
 
 AP63203WU-7 
@@ -70665,6 +70672,13 @@ LM2662MX/NOPB
 8
 8
 LV-Sensor-Footprints-Lib
+MC7805CD2TR4G
+D2PAK CASE 936−03 ISSUE E-2025
+Integrated Circuit
+0
+3
+3
+LV-Sensor-Footprints-Lib
 MCP2518FDT
 
 
@@ -70682,6 +70696,13 @@ LV-Sensor-Footprints-Lib
 SOIC8_4P9X3P9MC_MCH
 
 ATA6561-GAQW-N 
+0
+8
+8
+LV-Sensor-Footprints-Lib
+SOIC127P600X175-8N
+D
+Integrated Circuit
 0
 8
 8
